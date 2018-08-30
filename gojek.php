@@ -4,14 +4,14 @@ $red    = "\e[91m";
 $yellow = "\e[93m";
 $blue   = "\e[36m";
 sleep(2);
-echo "$green+---------------[# GO! - JEK - SPAM SMS #]---------------+\n";
+echo "$green+---------------[ GO! - JEK - SPAM SMS]---------------+\n";
 sleep(2);
-echo "$green+----------------------[# Transmission Access #]----------------------+\n";
+echo "$green+---------------[ Transmission Access ]---------------+\n";
 echo "\nNO HP 		: ";
 $no = trim(fgets(STDIN, 1024));
 echo "\nCOUNT 		: ";
 $loop = trim(fgets(STDIN, 1024));
-echo "\n$blue+---------------------[# RESULT #]---------------------+\n";
+echo "\n$blue+---------------------[# RESULT #]-------------------+\n";
 $no = substr(trim($no), 1);
 for ($x=1; $x<=$loop; $x++) {
 	$c = curl_init();
